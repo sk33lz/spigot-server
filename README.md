@@ -40,6 +40,7 @@ Use https://www.grc.com/passwords.htm to generate a unique very secure password.
         -v path/to/dir/minecraft-files:/opt/minecraft \
         -v /path/to/dir/minecraft-data:/var/lib/minecraft \
         -p 0.0.0.0:25565:25565 \
+        -p 0.0.0.0:25575:25575 \
         -e DEFAULT_OP=notch \
         -e MINECRAFT_EULA=true \
         -e MINECRAFT_VERSION=1.12.2 \
