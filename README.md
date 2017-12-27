@@ -3,7 +3,7 @@ A spigot Minecraft server built in a docker container with volumes mapped to the
 
 ## Server Quickstart
 
-Get started with some defaults out of the box with the following command.
+Get started with some defaults out of the box with the following command, or use my [Spigot Server Controller script](https://github.com/sk33lz/spigot-server-controller) for some pre-configured commands out of the box.
 
     docker run \
         -it \
