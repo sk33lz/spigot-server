@@ -214,6 +214,7 @@ case "$1" in
         build_server
         first_run
         update_permissions
+        update_server_properties
         trap safe_shutdown EXIT
         run_spigot $@
         ;;
