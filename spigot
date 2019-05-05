@@ -36,7 +36,7 @@ build_server() {
             curl -S $SPIGOT_BUILDTOOLS_URL -o /tmp/spigot/BuildTools.jar && \
             pushd /tmp/spigot > /dev/null && \
             java -jar BuildTools.jar --rev $MINECRAFT_VERSION && \
-            cp /tmp/spigot/craftbukkit-*.jar  /tmp/spigot/spigot-*.jar $MINECRAFT_HOME && \
+            cp /tmp/spigot/spigot-*.jar $MINECRAFT_HOME && \
             popd > /dev/null && \
             rm -rf /tmp/spigot
 
